@@ -1,0 +1,1113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section_text {
+    background-image: url('	https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.section_headText {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+.section_headText>h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.content_row {
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    flex-direction: row;
+}
+
+.content_person>img {
+    height: auto;
+    width: 100%;
+}
+
+.content_seatdetails {
+    display: flex;
+    flex: 1;
+}
+
+.content_seatinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    margin-bottom: 15px;
+    background-color: hwb(0 100% 0%);
+}
+
+.content_seatinfo>p {
+    text-align: center;
+    font-size: 20px;
+    color: #2e475d;
+}
+
+.content_seatinfo>h1 {
+    color: #bf2b2b;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding: 5px 40px;
+    margin-bottom: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 60px;
+}
+
+.content_seatinfo>hr {
+    color: rgb(19, 16, 16);
+    margin: 0 0px;
+    margin-bottom: 10px;
+    height: 1px;
+    width: 340px;
+}
+
+.seat-information {
+    display: flex;
+    flex-direction: column;
+    padding: 0 42px;
+    color: #2e475d;
+    font-size: 20px;
+    text-align: left;
+}
+
+.person_name {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    margin: 15px 20px;
+}
+
+.location_details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+    color: #2e475d;
+    line-height: 25px;
+}
+
+.italic_text {
+    font-weight: 100;
+    color: red;
+}
+
+.button_class {
+    color: white;
+    border: none;
+    background-color: #bf2b2b;
+    padding: 25px 30px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+}
+
+.registration_content {
+
+    width: 600px;
+    padding: 20px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    height: 450px;
+    width: 700px;
+}
+
+.registration_content>h1 {
+    font-size: 38px;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 20px 0;
+    letter-spacing: 1px;
+    color: #2e475d;
+}
+
+.registration_content .close-btn {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#registrationForm {
+    margin: 0 25px;
+}
+
+.text-inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-inputs .input-one input[type="text"] {
+    padding: 10px 5px;
+    padding-right: 108px;
+}
+
+.text-inputs .input-one input[type="text"]::placeholder {
+    font-size: 20px;
+    text-align: left;
+}
+
+#registrationForm .form {
+    margin: 12px 10px;
+}
+
+#registrationForm .form label {
+    color: #2e475d;
+    font-size: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#registrationForm .form label span {
+    color: red;
+    margin-left: 2px;
+}
+
+input[type="email"],
+input[type="number"] {
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+input[type="email"],
+input[type="number"]::placeholder {
+    font-size: 20px;
+    text-align: left;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn button {
+    background-color: #e96203;
+    padding: 10px 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+
+.button_class:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.container_row2 {
+    display: flex;
+    background-color: red;
+    margin-top: 15px;
+
+}
+
+.container_row2>img {
+    padding: 0 10px;
+    width: 100%;
+    height: auto;
+}
+
+.learning_container {
+    border: 1px solid blue;
+    background-image: url('https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-grey-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.learning_block {
+    margin-bottom: 20px;
+}
+
+.heading>h2 {
+    margin: 35px 0;
+    font-size: 40px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #2e475d;
+    text-align: center;
+}
+
+.learning_index {
+    padding-left: 90px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.learning_index>ul>li {
+    list-style-type: none;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #2e475d;
+}
+
+.learning_index>ul>li>i {
+    margin-right: 10px;
+}
+
+.section_two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading2>h1 {
+    font-size: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #2e475d;
+    padding: 0 265px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.impact>h2 {
+    font-size: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #2e475d;
+    margin: 20px 0;
+}
+
+.address>ul {
+    font-size: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #2e475d;
+    font-weight: 600;
+    text-align: center;
+}
+
+.address>ul>li {
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+
+.button {
+    border: 1px solid red;
+    display: flex;
+    background-color: #c00e0e;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 15px 65px;
+    border-radius: 50px
+}
+
+.button>i {
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+.seat-secure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 30px;
+}
+
+.seat-secure>h3 {
+    font-size: 20px;
+}
+
+.seat-secure>h3>p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Hosts_container {
+    background-color: black;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.Hosts_container {
+    padding: 15px 15px;
+}
+
+.host_heading {
+    text-align: center;
+}
+
+.host_heading>h2 {
+    padding: 30px 0;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.host_persons {
+    display: flex;
+    padding: 0 95px;
+}
+
+.directors {
+    height: 250px;
+    width: 100%;
+}
+
+.directors1 {
+    height: 250px;
+    width: 100%;
+}
+
+.first_person {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.first_person>h3 {
+    font-size: 26px;
+    padding-top: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.first_person>h4 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.director_data {
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: none;
+    padding-top: 12px;
+    margin-bottom: 5px;
+}
+
+.second_person {
+    padding: 0 10px;
+    margin-left: 20px;
+}
+
+.second_person>h3 {
+    font-size: 26px;
+    padding-top: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.second_person>h4 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.third_person {
+    padding: 0 10px;
+    margin-left: 20px;
+}
+
+.third_person>h3 {
+    font-size: 26px;
+    padding-top: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.third_person>h4 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.details_container {
+    background-image: url('	https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.details_row>h1 {
+    font-size: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    padding: 0px 50px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 35px 0;
+}
+
+.subtitle>h2 {
+    font-size: 23px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.venue_address>ul {
+    font-size: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+.venue_address>ul>li {
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+
+.buttonToSecure {
+    border: 1px solid red;
+    display: flex;
+    background-color: #c00e0e;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 15px 65px;
+    border-radius: 50px
+}
+
+.buttonToSecure>i {
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+.seatToSecure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 30px;
+}
+
+.seatToSecure>h3 {
+    font-size: 20px;
+}
+
+.seatToSecure>h3>p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer_container {
+    background-color: rgb(10, 6, 6);
+    height: 200px;
+    width: 100%;
+    padding: 35px 20px;
+}
+
+.image_section>img {
+    margin: 0 120px;
+}
+
+.copyrights {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin: 20px 120px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+@media (min-width: 376px) and (max-width: 424px) {
+
+    .section_text {
+        background-image: url('	https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-banner.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+    }
+
+    .section_headText {
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+    .section_headText>h2 {
+        flex-wrap: wrap;
+        padding: 5px 0px;
+        font-size: 28px;
+    }
+
+    .content_row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 25px;
+    }
+
+    .content_person>img {
+        height: 310px;
+        width: 100%;
+        padding-left: 120px;
+    }
+
+    .content_seatdetails {
+        margin-bottom: -15px;
+    }
+
+    .content_seatinfo>p {
+        padding: 0 32px;
+        font-size: 19px;
+        color: #2e475d;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .content_seatinfo>h1 {
+        padding: 0 30px;
+        font-size: 36px;
+    }
+
+    .content_seatinfo>hr {
+        margin-top: 10px;
+        margin-bottom: 8px;
+        border: 1px solid rgb(209, 207, 207);
+        width: 200px;
+    }
+
+    .seat-information {
+        align-items: center;
+        justify-content: center;
+        padding: 0 25px;
+        color: #2e475d;
+    }
+
+    .seat-information>span {
+        font-size: 20px;
+        color: #2e475d;
+    }
+
+    .person_name {
+        margin: 15px 15px;
+        padding: 0 20px;
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
+
+    .seat_button {
+        padding: 0 30px;
+        display: flex;
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+    .location_details {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    .button_class {
+        padding: 10px 20px;
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    .button_class>i {
+        margin-left: 10px;
+    }
+
+    .registration_content {
+        width: 370px;
+        height: 550px;
+        padding: 20px;
+    }
+
+    .registration_content>h1 {
+        text-align: left;
+    }
+
+    #registrationForm {
+        margin: 0 5px;
+    }
+
+    #registrationForm .form {
+        margin: 10px 5px;
+    }
+
+    #registrationForm .form label {
+        font-size: 18px;
+    }
+
+    .text-inputs .input-one input[type="text"] {
+        padding: 15px 0px;
+    }
+
+    .secure_seat {
+        border-radius: 60px;
+        line-height: 35px;
+        padding: 15px 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon {
+        font-size: 35px;
+        margin-left: -15px;
+    }
+
+    .container_row2 {
+        background-color: rgb(202, 18, 18);
+        margin-top: 0;
+    }
+
+    .container_row2>img {
+        padding-top: 40px;
+        width: 100%;
+        height: auto;
+        padding: 0 30px;
+        padding-top: 40px;
+    }
+
+    .learning_block {
+        padding: 20px 10px;
+    }
+
+    .heading>h2 {
+        font-family: sans-serif;
+    }
+
+    .learning_index {
+        padding: 0 15px;
+        line-height: 35px;
+    }
+
+    .heading2>h1 {
+        padding: 5px 7px;
+    }
+
+    .impact {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .address {
+        padding: 0px 6px;
+
+    }
+
+    .address>ul {
+        font-size: 20px;
+    }
+
+    .button {
+        margin: 12px;
+    }
+
+    .host_heading>h2 {
+        padding: 35px 5px;
+        font-size: 33px;
+    }
+
+    .host_persons {
+        padding: 10px 5px;
+        flex-wrap: wrap;
+    }
+
+    .first_person {
+        margin-bottom: 25px;
+    }
+
+    .first_person>p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .second_person {
+        margin-bottom: 25px;
+    }
+
+    .second_person>p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .third_person {
+        margin-bottom: 25px;
+    }
+
+    .third_person>p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .details_container {
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .details_row>h1 {
+        padding: 10px 0;
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .subtitle>h2 {
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .venue_address>ul {
+        font-size: 22px;
+    }
+
+    .footer_container {
+        padding: 15px 5px;
+    }
+
+    .image_section>img {
+        margin: 15px 5px;
+    }
+
+    .copyrights {
+        margin: 0px 10px;
+        flex-wrap: wrap;
+    }
+
+    .copyright_year {
+        margin-left: 15px;
+    }
+
+    .privacy {
+        margin-left: 140px;
+        text-align: right;
+        line-height: 50px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .section_headText {
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+    .section_headText>h2 {
+        flex-wrap: wrap;
+        padding: 5px 0px;
+        font-size: 28px;
+    }
+
+    .content_row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 25px;
+    }
+
+    .content_person>img {
+        height: 310px;
+        width: 100%;
+        padding-left: 120px;
+    }
+
+    .content_seatdetails {
+        margin-bottom: -15px;
+    }
+
+    .content_seatinfo>p {
+        padding: 0 32px;
+        font-size: 19px;
+        color: #2e475d;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .content_seatinfo>h1 {
+        padding: 0 30px;
+        font-size: 36px;
+    }
+
+    .content_seatinfo>hr {
+        margin-top: 10px;
+        margin-bottom: 8px;
+        border: 1px solid rgb(209, 207, 207);
+        width: 200px;
+    }
+
+    .seat-information {
+        align-items: center;
+        justify-content: center;
+        padding: 0 25px;
+        color: #2e475d;
+    }
+
+    .seat-information>span {
+        font-size: 20px;
+        color: #2e475d;
+    }
+
+    .person_name {
+        margin: 15px 15px;
+        padding: 0 20px;
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
+
+    .seat_button {
+        padding: 0 30px;
+        display: flex;
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+    .location_details {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    .button_class {
+        padding: 10px 20px;
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    .button_class>i {
+        margin-left: 10px;
+    }
+
+    .registration_content {
+        width: 370px;
+        height: 550px;
+        padding: 20px;
+    }
+
+    .registration_content>h1 {
+        text-align: left;
+    }
+
+    #registrationForm {
+        margin: 0 5px;
+    }
+
+    #registrationForm .form {
+        margin: 10px 5px;
+    }
+
+    #registrationForm .form label {
+        font-size: 18px;
+    }
+
+    .text-inputs .input-one input[type="text"] {
+        padding: 15px 0px;
+    }
+
+    .secure_seat {
+        border-radius: 60px;
+        line-height: 35px;
+        padding: 15px 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon {
+        font-size: 35px;
+        margin-left: -15px;
+    }
+
+    .container_row2 {
+        background-color: rgb(202, 18, 18);
+        margin-top: 0;
+    }
+
+    .container_row2>img {
+        padding-top: 40px;
+        width: 100%;
+        height: auto;
+        padding: 0 30px;
+        padding-top: 40px;
+    }
+
+    .learning_block {
+        padding: 20px 10px;
+    }
+
+    .heading>h2 {
+        font-family: sans-serif;
+    }
+
+    .learning_index {
+        padding: 0 15px;
+        line-height: 35px;
+    }
+
+    .heading2>h1 {
+        padding: 5px 7px;
+    }
+
+    .impact {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .address {
+        padding: 0px 6px;
+
+    }
+
+    .address>ul {
+        font-size: 20px;
+    }
+
+    .button {
+        margin: 12px;
+    }
+
+    .host_heading>h2 {
+        padding: 35px 5px;
+        font-size: 33px;
+    }
+
+    .host_persons {
+        padding: 10px 5px;
+        flex-wrap: wrap;
+    }
+
+    .first_person {
+        margin-bottom: 25px;
+    }
+
+    .first_person>p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .second_person {
+        margin-bottom: 25px;
+    }
+
+    .second_person>p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .third_person {
+        margin-bottom: 25px;
+    }
+
+    .third_person>p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .details_container {
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .details_row>h1 {
+        padding: 10px 0;
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .subtitle>h2 {
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .venue_address>ul {
+        font-size: 22px;
+    }
+
+    .footer_container {
+        padding: 15px 5px;
+    }
+
+    .image_section>img {
+        margin: 15px 5px;
+    }
+
+    .copyrights {
+        margin: 0px 10px;
+        flex-wrap: wrap;
+    }
+
+    .copyright_year {
+        margin-left: 15px;
+    }
+
+    .privacy {
+        margin-left: 140px;
+        text-align: right;
+        line-height: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .section_headText>h2 {
+        padding: 0 10px;
+    }
+
+    .content_row {
+        flex-direction: row;
+    }
+
+    .content_person>img {
+        height: 500px;
+        padding: 10px;
+    }
+
+    .content_seatinfo>p {
+        font-size: 16px;
+    }
+
+    .registration_content {
+
+        width: 600px;
+        height: 485px;
+    }
+
+    .registration_content>h1 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .text-inputs .input-one input[type="text"] {
+        padding: 10px 0px;
+        padding-right: 95px;
+    }
+
+    .host_persons {
+        flex-wrap: nowrap;
+        padding: 0 15px;
+    }
+
+    .copyrights {
+        justify-content: space-between;
+        align-items: center;
+    }
+}
